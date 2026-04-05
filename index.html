@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pajaken - Cek Pajak Online</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="profile-header">
+      <a href="#" class="back-btn">
+        <img
+          src="https://img.icons8.com/ios-filled/50/FFFFFF/back.png"
+          alt="back--v1"
+        />
+        Kembali
+      </a>
+
+      <div class="avatar">
+        <img src="assets/profile.svg" alt="profile" />
+      </div>
+    </div>
+
+    <div class="profile-info">
+      <h1>John Doe</h1>
+      <p>Kab. Bekasi, Jawa Barat</p>
+
+      <div class="profile-actions">
+        <button class="btn-primary">Edit Profil</button>
+        <button class="btn-outline">Pengaturan</button>
+      </div>
+    </div>
+
+    <div class="form">
+      <!-- Informasi Profil -->
+      <div class="card">
+        <div class="card-header">
+          <h3>Informasi Profil</h3>
+          <button class="edit-btn">Edit</button>
+        </div>
+
+        <div class="grid">
+          <div class="field">
+            <label>Nama Depan</label>
+            <input type="text" value="John" />
+          </div>
+
+          <div class="field">
+            <label>Nama Belakang</label>
+            <input type="text" value="Doe" />
+          </div>
+
+          <div class="field">
+            <label>Email</label>
+            <input type="email" value="johndoe123@example.com" />
+          </div>
+
+          <div class="field">
+            <label>No. Handphone</label>
+            <input type="text" value="+62 1234567890" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Alamat -->
+      <div class="card">
+        <div class="card-header">
+          <h3>Alamat</h3>
+          <button class="edit-btn">Edit</button>
+        </div>
+
+        <div class="grid">
+          <div class="field">
+            <label>Provinsi</label>
+            <input type="text" value="Jawa Barat" />
+          </div>
+
+          <div class="field">
+            <label>Kab/Kota</label>
+            <select>
+              <option>Bekasi</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Kecamatan</label>
+            <select>
+              <option>Mustika Jaya</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Kelurahan</label>
+            <select>
+              <option>Mustika Jaya</option>
+            </select>
+          </div>
+
+          <div class="field full">
+            <label>Tambahkan detail</label>
+            <textarea placeholder="cth: Jl Angsana 123"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Button -->
+      <div class="bottom-actions">
+        <button class="btn-primary">Simpan</button>
+        <button class="btn-cancel">Batalkan</button>
+      </div>
+    </div>
+
+    <!-- <footer>
+      <p>Pajaken &#169; 2026</p>
+    </footer> -->
+  </body>
+</html>

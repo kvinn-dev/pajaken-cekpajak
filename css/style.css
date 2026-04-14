@@ -10,7 +10,6 @@ body {
 }
 
 /* Header */
-
 .profile-header{
     position:relative;
     background:linear-gradient(90deg,#6200ff,#6f00ff);
@@ -98,18 +97,18 @@ body {
 }
 
 /* Card Field Form */
-
 .form {
   width: 95%;
   margin: auto;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .card {
   background: white;
   border-radius: 12px;
-  margin-top: 40px;
   padding: 35px;
+  margin-bottom: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -127,8 +126,7 @@ body {
   cursor: pointer;
 }
 
-/* Grid */
-
+/* Grid Field */
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -161,7 +159,6 @@ body {
 }
 
 /* Bottom Button */
-
 .bottom-actions {
   display: flex;
   justify-content: flex-end;
@@ -177,19 +174,7 @@ body {
   cursor: pointer;
 }
 
-/* footer {
-  padding: 1rem;
-  background: linear-gradient(90deg, #4b00ff, #a855f7);
-  text-align: center;
-  color: white;
-} */
-
-
-body.bg-white {
-  background-color: #ffffff;
-}
-
-/* Top Navigasi */
+/* Top Nav */
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -231,7 +216,7 @@ body.bg-white {
   right: 2px;
   width: 7px;
   height: 7px;
-  background: #e74c3c;
+  background: #ef4444;
   border-radius: 50%;
 }
 
@@ -266,7 +251,7 @@ body.bg-white {
   flex-shrink: 0;
 }
 
-/* Kontrol Atas (Dropdown & Tombol) */
+/* Kontrol Atas (Dropdown dan Tombol) */
 .notif-controls {
   display: flex;
   justify-content: space-between;
@@ -296,7 +281,7 @@ body.bg-white {
   cursor: pointer;
 }
 
-/* Kartu Notifikasi */
+/* Notif Card */
 .notif-card {
   background: #ffffff;
   border: 1px solid #eaeaea;
@@ -359,7 +344,7 @@ body.bg-white {
   font-weight: 500;
 }
 
-/* Warna Status */
+/* Status Color */
 .badge.orange { background: #f59e0b; }
 .badge.green { background: #10b981; }
 .badge.red { background: #ef4444; }
@@ -378,7 +363,7 @@ body.bg-white {
   line-height: 1.6;
 }
 
-/* Aksi Kartu Kanan */
+/* Right Card Action */
 .notif-actions {
   display: flex;
   flex-direction: column;
@@ -488,30 +473,29 @@ body.bg-white {
 /* Layout Kontainer Utama */
 .ps-container {
   width: 95%;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 0 60px;
+  padding: 10px 0 60px;
 }
 
 /* Kotak Grup (Motor Saya & Mobil Saya) */
 .ps-group-box {
   background: white;
   border-radius: 12px;
-  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   margin-top: 30px;
   overflow: hidden;
 }
 
 .ps-group-header {
   padding: 20px 30px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #222;
   border-bottom: 1px solid #e0e0e0;
   background: #fff;
 }
 
-/* Kartu Kendaraan */
+/* Vehicle Card */
 .ps-card {
   display: flex;
   align-items: center;
@@ -524,11 +508,11 @@ body.bg-white {
   border-bottom: none;
 }
 
-/* Gambar Kendaraan */
+/* Vehicle Image */
 .ps-img-wrap {
-  width: 180px;
-  height: 120px;
-  border: 1px solid #eaeaea;
+  width: 200px;
+  height: 140px;
+  border: 2px solid #6200ff;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -566,7 +550,7 @@ body.bg-white {
   font-size: 11px;
   padding: 5px 12px;
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Grid Spesifikasi */
@@ -598,7 +582,7 @@ body.bg-white {
   font-weight: 500;
 }
 
-.ps-status-red { color: #e74c3c !important; }
+.ps-status-red { color: #ef4444 !important; }
 .ps-status-green { color: #2ecc71 !important; }
 
 /* Aksi/Tombol Kanan */
@@ -615,7 +599,7 @@ body.bg-white {
   padding: 10px;
   border-radius: 8px;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -632,6 +616,6 @@ body.bg-white {
 }
 
 .ps-btn-hapus {
-  background: #e66f5c;
+  background: #ef4444;
   color: white;
 }

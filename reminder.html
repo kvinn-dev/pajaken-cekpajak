@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengingat - Cek Pajak Online</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="rm-top-nav">
+      <a href="index.html" class="rm-logo">
+        <img src="assets/logo-pajaken.svg" alt="Logo Pajaken" />
+      </a>
+
+      <div class="rm-nav-center">
+        <a href="beranda.html" class="rm-nav-item">Beranda</a>
+        <a href="cek-pajak.html" class="rm-nav-item">Cek Pajak</a>
+        <a href="reminder.html" class="rm-nav-item active">Pengingat</a>
+      </div>
+
+      <div class="nav-right">
+        <div class="nav-bell">
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            stroke="#6200ff"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9zm-6 13a3 3 0 01-3-3h6a3 3 0 01-3 3z"
+            ></path>
+          </svg>
+          <div class="bell-dot"></div>
+        </div>
+        <a href="profile-info.html">
+          <div class="nav-avatar">
+            <img src="assets/profile.svg" alt="profile" />
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <main class="rm-layout">
+      <div class="rm-left">
+        <div class="rm-view-tabs">
+          <button class="rm-view-tab active">Bulan</button>
+          <button class="rm-view-tab">Minggu</button>
+          <button class="rm-view-tab">Hari</button>
+        </div>
+
+        <div class="rm-month-header">
+          <div class="rm-month-nav">
+            <button class="rm-nav-arrow">&lt;</button>
+            <h2>April 2026</h2>
+            <button class="rm-nav-arrow">&gt;</button>
+          </div>
+          <div class="rm-search-filter">
+            <div class="rm-search-box">
+              <svg
+                class="rm-search-icon"
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="M21 21l-4.35-4.35"></path>
+              </svg>
+              <input type="text" placeholder="Cari..." />
+            </div>
+            <button class="rm-filter-btn">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                <circle cx="6" cy="18" r="2" fill="currentColor"></circle>
+                <circle cx="10" cy="6" r="2" fill="currentColor"></circle>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="rm-calendar-card">
+          <div class="rm-cal-header-row">
+            <div class="rm-cal-header-cell">Min</div>
+            <div class="rm-cal-header-cell">Sen</div>
+            <div class="rm-cal-header-cell">Sel</div>
+            <div class="rm-cal-header-cell">Rab</div>
+            <div class="rm-cal-header-cell">Kam</div>
+            <div class="rm-cal-header-cell">Jum</div>
+            <div class="rm-cal-header-cell">Sab</div>
+          </div>
+
+          <div class="rm-cal-grid">
+            <div class="rm-cal-cell">
+              <div class="rm-date-top">
+                <div class="rm-date-num muted">29</div>
+              </div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top">
+                <div class="rm-date-num muted">30</div>
+              </div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top">
+                <div class="rm-date-num muted">31</div>
+              </div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top">
+                <div class="rm-event-dot"></div>
+                <div class="rm-date-num">1</div>
+              </div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">2</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">3</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">4</div></div>
+            </div>
+
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">5</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">6</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">7</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">8</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">9</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">10</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">11</div></div>
+            </div>
+
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">12</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">13</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">14</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">15</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">16</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">17</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top">
+                <div class="rm-event-dot"></div>
+                <div class="rm-date-num">18</div>
+              </div>
+            </div>
+
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">19</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">20</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">21</div></div>
+              <div class="rm-event-block">Pajak Motor<br />(B 1234 ABC)</div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">22</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top">
+                <div class="rm-event-dot"></div>
+                <div class="rm-date-num">23</div>
+              </div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">24</div></div>
+            </div>
+            <div class="rm-cal-cell">
+              <div class="rm-date-top"><div class="rm-date-num">25</div></div>
+            </div>
+
+            <div class="rm-cal-cell last-row">
+              <div class="rm-date-top"><div class="rm-date-num">26</div></div>
+            </div>
+            <div class="rm-cal-cell last-row">
+              <div class="rm-date-top"><div class="rm-date-num">27</div></div>
+            </div>
+            <div class="rm-cal-cell last-row">
+              <div class="rm-date-top"><div class="rm-date-num">28</div></div>
+            </div>
+            <div class="rm-cal-cell last-row">
+              <div class="rm-date-top"><div class="rm-date-num">29</div></div>
+            </div>
+            <div class="rm-cal-cell last-row">
+              <div class="rm-date-top"><div class="rm-date-num">30</div></div>
+              <div class="rm-event-block">Pajak Motor<br />(DK 4567 BCD)</div>
+            </div>
+            <div class="rm-cal-cell last-row">
+              <div class="rm-date-top">
+                <div class="rm-date-num muted">1</div>
+              </div>
+            </div>
+            <div class="rm-cal-cell last-row">
+              <div class="rm-date-top">
+                <div class="rm-date-num muted">2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rm-right">
+        <div class="rm-sidebar-actions">
+          <button class="rm-btn-add">+ Tambah</button>
+          <button class="rm-btn-cancel">
+            <svg
+              width="14"
+              height="14"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M18 6L6 18M6 6l12 12"></path>
+            </svg>
+            Batalkan
+          </button>
+        </div>
+
+        <div class="rm-form-group">
+          <label class="rm-label">Kendaraan</label>
+          <div class="rm-select-wrapper">
+            <select class="rm-select">
+              <option>Pilih kendaraan</option>
+            </select>
+            <svg
+              class="rm-select-arrow"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="rm-form-group">
+          <label class="rm-label">Tipe Kendaraan</label>
+          <div class="rm-toggle-row">
+            <button class="rm-toggle-btn active">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="7" cy="17" r="2"></circle>
+                <circle cx="17" cy="17" r="2"></circle>
+                <path d="M5 17H3v-4l2-4h10l2 4v4h-2M7 9l-1.5 4h9L13 9z"></path>
+              </svg>
+              Motor
+            </button>
+            <button class="rm-toggle-btn">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 10h18M5 10V6a2 2 0 012-2h10a2 2 0 012 2v4M4 19v2a1 1 0 001 1h1a1 1 0 001-1v-2h10v2a1 1 0 001 1h1a1 1 0 001-1v-2a3 3 0 003-3v-5H2v5a3 3 0 002 3z"
+                ></path>
+                <circle cx="6.5" cy="15.5" r="1.5"></circle>
+                <circle cx="17.5" cy="15.5" r="1.5"></circle>
+              </svg>
+              Mobil
+            </button>
+          </div>
+        </div>
+
+        <div class="rm-form-group">
+          <label class="rm-label">Tanggal Jatuh Tempo Pajak</label>
+          <div class="rm-input-wrapper">
+            <input type="text" class="rm-input" value="21 April 2026" />
+            <div class="rm-input-icon">
+              <svg
+                width="18"
+                height="18"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <path d="M16 2v4M8 2v4M3 10h18"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="rm-form-group">
+          <label class="rm-label">Pengingat Sebelum Jatuh Tempo</label>
+          <div class="rm-toggle-row">
+            <button class="rm-toggle-btn active">3 Hari</button>
+            <button class="rm-toggle-btn">7 Hari</button>
+            <button class="rm-toggle-btn">30 Hari</button>
+          </div>
+        </div>
+
+        <div class="rm-mini-cal">
+          <div class="rm-mini-grid">
+            <div class="rm-mini-day">Min</div>
+            <div class="rm-mini-day">Sen</div>
+            <div class="rm-mini-day">Sel</div>
+            <div class="rm-mini-day">Rab</div>
+            <div class="rm-mini-day">Kam</div>
+            <div class="rm-mini-day">Jum</div>
+            <div class="rm-mini-day">Sab</div>
+            <div class="rm-mini-date muted">29</div>
+            <div class="rm-mini-date muted">30</div>
+            <div class="rm-mini-date muted">31</div>
+            <div class="rm-mini-date">1</div>
+            <div class="rm-mini-date">2</div>
+            <div class="rm-mini-date">3</div>
+            <div class="rm-mini-date">4</div>
+            <div class="rm-mini-date">5</div>
+            <div class="rm-mini-date">6</div>
+            <div class="rm-mini-date">7</div>
+            <div class="rm-mini-date">8</div>
+            <div class="rm-mini-date">9</div>
+            <div class="rm-mini-date">10</div>
+            <div class="rm-mini-date">11</div>
+            <div class="rm-mini-date">12</div>
+            <div class="rm-mini-date">13</div>
+            <div class="rm-mini-date">14</div>
+            <div class="rm-mini-date">15</div>
+            <div class="rm-mini-date">16</div>
+            <div class="rm-mini-date">17</div>
+            <div class="rm-mini-date solid">18</div>
+            <div class="rm-mini-date">19</div>
+            <div class="rm-mini-date">20</div>
+            <div class="rm-mini-date outline">21</div>
+            <div class="rm-mini-date">22</div>
+            <div class="rm-mini-date">23</div>
+            <div class="rm-mini-date">24</div>
+            <div class="rm-mini-date">25</div>
+            <div class="rm-mini-date">26</div>
+            <div class="rm-mini-date">27</div>
+            <div class="rm-mini-date">28</div>
+            <div class="rm-mini-date">29</div>
+            <div class="rm-mini-date">30</div>
+            <div class="rm-mini-date muted">1</div>
+            <div class="rm-mini-date muted">2</div>
+          </div>
+        </div>
+
+        <button class="rm-btn-submit">Simpan Pengingat</button>
+      </div>
+    </main>
+  </body>
+</html>

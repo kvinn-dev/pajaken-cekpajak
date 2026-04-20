@@ -419,7 +419,7 @@ body {
 /* Container Layout */
 .notif-container {
   display: flex;
-  gap: 70px;
+  gap: 50px;
   padding: 40px;
   margin: 80px auto;
 }
@@ -536,8 +536,8 @@ body {
 .badge.red {
   background: #ef4444;
 }
-.badge.teal {
-  background: #0d9488;
+.badge.blue {
+  background: #2383e3;
 }
 
 .dot {
@@ -554,8 +554,8 @@ body {
 .dot.red {
   background: #ef4444;
 }
-.dot.teal {
-  background: #0d9488;
+.dot.blue {
+  background: #2383e3;
 }
 .dot.gray {
   background: #9ca3af;
@@ -709,7 +709,7 @@ body {
 .rm-layout {
   display: flex;
   gap: 40px;
-  padding: 140px 40px 40px; /* Offset fixed header */
+  padding: 140px 20px 40px; /* Offset fixed header */
   max-width: 1400px;
   margin: 0 auto;
 }

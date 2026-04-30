@@ -177,6 +177,13 @@ body {
   cursor: pointer;
 }
 
+.text-homepage {
+  font-size: 50px;
+  color: #222;
+  text-align: center;
+  margin-top: 150px;
+}
+
 /* Tombol Edit di Header Kanan Atas */
 .ps-header-edit-btn {
   position: absolute;
@@ -722,31 +729,6 @@ body {
   width: 330px;
   flex-shrink: 0;
   margin: 67px 0 0 0;
-}
-
-/* Kalender Kiri - Kontrol Atas */
-.rm-view-tabs {
-  display: inline-flex;
-  background: #f0ebff;
-  border-radius: 8px;
-  padding: 4px;
-  margin-bottom: 25px;
-}
-
-.rm-view-tab {
-  padding: 8px 24px;
-  border: none;
-  background: transparent;
-  color: #6200ff;
-  font-weight: 500;
-  font-size: 13px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.rm-view-tab.active {
-  background: #6200ff;
-  color: white;
 }
 
 .rm-month-header {
